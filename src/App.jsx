@@ -12,6 +12,7 @@ import Footer from './components/Footer'
 const App = () => {
     const isAdmin = useLocation().pathname.startsWith('/admin')
     return (
+
         <>
         <Toaster/>
         {!isAdmin && <Navbar/>}
